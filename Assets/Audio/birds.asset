@@ -1,5 +1,75 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1233149941 &-8130584040597045049
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ambiance_animal_bird_high_oneshot_03_{-8130584040597045049}
+  m_AudioClip: {fileID: 8300000, guid: cdcc190716fbd494ea133ac7a83497ea, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-6736919990441153210
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ambiance_animal_bird_high_oneshot_04_{-6736919990441153210}
+  m_AudioClip: {fileID: 8300000, guid: a8653bb6a62d5a44096c3472479e0700, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-5915657496924451130
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ambiance_animal_bird_high_oneshot_02_{-5915657496924451130}
+  m_AudioClip: {fileID: 8300000, guid: b9160fe945520374db0cbc5cb6cd2e67, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-5850479036094679068
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ambiance_animal_bird_high_oneshot_01_{-5850479036094679068}
+  m_AudioClip: {fileID: 8300000, guid: 10a48a5f13cb62e46a3dec88303379e4, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-4393439995148742932
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ambiance_animal_bird_high_oneshot_05_{-4393439995148742932}
+  m_AudioClip: {fileID: 8300000, guid: 0e57c799d2704054c95ae12d72fde38b, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &4941154862864949536
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ambiance_animal_bird_high_oneshot_10_{4941154862864949536}
+  m_AudioClip: {fileID: 8300000, guid: a5c5a5f3ab42fea4eb8f8bda8d369477, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &5884472779119201967
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ambiance_animal_bird_high_oneshot_06_{5884472779119201967}
+  m_AudioClip: {fileID: 8300000, guid: 052639935d05cf74c915ee369aebb8cf, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
 --- !u!1307931743 &6418180475301049370
 AudioRandomContainer:
   m_ObjectHideFlags: 0
@@ -7,7 +77,7 @@ AudioRandomContainer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: birds
-  m_Volume: 0
+  m_Volume: -32
   m_Pitch: 0
   m_AutomaticTriggerTime: 0
   m_LoopCount: 1
@@ -15,9 +85,16 @@ AudioRandomContainer:
   m_PitchRandomizationRange: {x: 0, y: 0}
   m_AutomaticTriggerTimeRandomizationRange: {x: 0, y: 0}
   m_LoopCountRandomizationRange: {x: 0, y: 0}
-  m_Elements: []
-  m_AvoidRepeatingLast: 0
-  m_PlaybackMode: 0
+  m_Elements:
+  - {fileID: -5850479036094679068}
+  - {fileID: -5915657496924451130}
+  - {fileID: -8130584040597045049}
+  - {fileID: -6736919990441153210}
+  - {fileID: -4393439995148742932}
+  - {fileID: 5884472779119201967}
+  - {fileID: 4941154862864949536}
+  m_AvoidRepeatingLast: 3
+  m_PlaybackMode: 2
   m_TriggerMode: 1
   m_AutomaticTriggerMode: 1
   m_LoopMode: 2
